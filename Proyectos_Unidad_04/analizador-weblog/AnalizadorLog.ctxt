@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=AnalizadorLog
+comment0.text=\r\n\ Lee\ los\ datos\ de\ un\ servidor\ web\ y\ analiza\r\n\ los\ modelos\ de\ acceso\ de\ cada\ hora.\r\n\ \r\n\ @author\ David\ J.\ Barnes\ and\ Michael\ Kolling.\r\n\ @version\ 2006.03.30\r\n
+comment1.params=
+comment1.target=AnalizadorLog()
+comment1.text=\r\n\ Create\ an\ object\ to\ analyze\ hourly\ web\ accesses.\r\n
+comment2.params=
+comment2.target=void\ analizarPorHora()
+comment2.text=\r\n\ Analiza\ los\ accesos\ por\ hora\ a\ partir\ de\ los\ datos\ del\ archivo\ log.\r\n
+comment3.params=
+comment3.target=void\ imprimirContadoresPorHora()
+comment3.text=\r\n\ Imprime\ la\ cantidad\ de\ accesos\ por\ hora.\r\n\ Debe\ ser\ rrellenado\ previamente\ mediante\ una\r\n\ llamada\ previa\ a\ analizarPorHora.\r\n
+comment4.params=
+comment4.target=void\ imprimeDatos()
+comment4.text=\r\n\ Imprime\ las\ l\u00EDneas\ de\ datos\ le\u00EDdas\ por\ el\ LectorDeArchivoLog\r\n
+numComments=5

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Oferta
+comment0.text=\r\n\ Una\ clase\ que\ modela\ una\ oferta\ en\ una\ subasta.\r\n\ Contiene\ una\ referencia\ a\ la\ persona\ ofertando\r\n\ y\ el\ monto\ de\ la\ oferta.\r\n\ \r\n\ @author\ David\ J.\ Barnes\ and\ Michael\ Kolling.\r\n\ @version\ 2006.03.30\r\n
+comment1.params=oferente\ valor
+comment1.target=Oferta(Persona,\ long)
+comment1.text=\r\n\ Crea\ una\ oferta.\r\n\ @param\ oferente\ Quien\ est\u00E1\ ofertando\ por\ el\ lote.\r\n\ @param\ valor\ El\ valor\ de\ la\ oferta.\r\n
+comment2.params=
+comment2.target=Persona\ getOferente()
+comment2.text=\r\n\ @return\ El\ oferente.\r\n
+comment3.params=
+comment3.target=long\ getValor()
+comment3.text=\r\n\ @return\ El\ valor\ de\ la\ oferta.\r\n
+numComments=4

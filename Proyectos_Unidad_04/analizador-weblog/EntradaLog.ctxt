@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=EntradaLog
+comment0.text=\r\n\ Almacena\ los\ datos\ de\ una\ sola\ l\u00EDnea\ de\ un\ \r\n\ archivo\ de\ log\ de\ un\ web-server.\r\n\ Los\ campos\ individuales\ de\ hacen\ disponibles\ v\u00EDa\r\n\ m\u00E9todos\ de\ acceso\ tales\ como\ getHora()\ y\ getMinuto().\r\n\ \r\n\ @author\ David\ J.\ Barnes\ and\ Michael\ Kolling.\r\n\ @version\ 2006.03.30\r\n
+comment1.params=linealog
+comment1.target=EntradaLog(java.lang.String)
+comment1.text=\r\n\ Descompone\ una\ l\u00EDnea\ de\ log\ de\ tal\ manera\ que\ los\ campos\r\n\ individuale\ est\u00E1n\ disponibles.\r\n\ @param\ linealog\ Una\ \u00FAnica\ l\u00EDnea\ del\ log.\r\n
+comment2.params=
+comment2.target=int\ getHora()
+comment2.text=\r\n\ @return\ El\ campo\ de\ la\ hora\ de\ la\ l\u00EDnea\ de\ log.\r\n
+comment3.params=
+comment3.target=int\ getMinuto()
+comment3.text=\r\n\ @return\ El\ minuto\ de\ la\ l\u00EDnea\ de\ log.\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ Crea\ una\ representaci\u00F3n\ de\ los\ datos\ en\ una\ cadena.\r\n\ Esta\ no\ es\ necesariamente\ id\u00E9ntica\ al\ texto\ de\ la\r\n\ l\u00EDnea\ original\ de\ la\ l\u00EDnea\ de\ log\r\n\ @return\ Una\ cadena\ que\ representa\ los\ datos\ de\ esta\ entrada.\r\n
+comment5.params=otraEntrada
+comment5.target=int\ compareTo(EntradaLog)
+comment5.text=\r\n\ Compara\ la\ \ combinaci\u00F3n\ de\ fecha/hora\ de\ esta\ entrada\ de\ log\r\n\ con\ la\ de\ otra.\r\n\ @param\ otraEntrada\ La\ otra\ entrada\ con\ la\ cual\ se\ compara.\r\n\ @return\ Un\ valor\ negativo\ si\ esta\ entrada\ aparece\ antes\ que\ la\ otra.\r\n\ \ \ \ \ \ \ \ \ Un\ valor\ positivo\ si\ esta\ entrada\ aparece\ despu\u00E9s\ de\ la\ otra.\r\n\ \ \ \ \ \ \ \ \ Cero\ si\ las\ entradas\ son\ iguales.\r\n
+numComments=6

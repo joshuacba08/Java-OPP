@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Persona
+comment0.text=\r\n\ Mantiene\ los\ detalles\ de\ alguien\ que\ participa\ en\ una\ subasta.\r\n\ @author\ David\ J.\ Barnes\ and\ Michael\ Kolling.\r\n\ @version\ 2006.03.30\r\n
+comment1.params=nombre
+comment1.target=Persona(java.lang.String)
+comment1.text=\r\n\ Crea\ una\ nueva\ persona\ con\ el\ nombre\ dado.\r\n\ @param\ nombre\ El\ nombre\ de\ la\ persona.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getNombre()
+comment2.text=\r\n\ @return\ El\ nombre\ de\ la\ persona.\r\n
+numComments=3

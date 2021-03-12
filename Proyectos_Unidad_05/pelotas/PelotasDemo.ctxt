@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=PelotasDemo()
+comment0.text=\nCrea\ un\ objeto\ PelotasDemo.\ Crea\ un\ nuevo\ canvas\ y\ lo\ hace\ visible.\n\n
+comment1.target=void\ demoDibujar()
+comment1.text=\nMuestra\ algunas\ operaciones\ de\ dibujo\ que\ se\ pueden\ realizar\ sobre\nun\ objeto\ Canvas.\n\n
+comment2.target=void\ rebotar()
+comment2.text=\nSimula\ dos\ pelotas\ rebotando\n\n
+numComments=3

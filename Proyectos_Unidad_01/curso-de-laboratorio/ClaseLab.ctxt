@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=ClaseLab
+comment0.text=\r\n\ \r\n\ La\ clase\ ClaseLab\ representa\ una\ lista\ de\ matriculaci\u00F3n\ de\ una\ clase\ de\ laboratorio.\r\n\ Almacena\ el\ horario,\ aula\ y\ participantes\ del\ lab,\ tanto\ como\ el\ nombre\ del\ \r\n\ instructor.\r\n\ \r\n\ @author\ Michael\ Kolling\ and\ David\ Barnes\r\n\ @version\ 2006.03.30\r\n\ Traducci\u00F3n\ Carlos\ A.\ Bart\u00F3\r\n
+comment1.params=maximoNumeroDeEstudiantes
+comment1.target=ClaseLab(int)
+comment1.text=\r\n\ Crea\ una\ ClaseLab\ con\ un\ n\u00FAmero\ m\u00E1ximo\ de\ matr\u00EDculas.\ Todos\ los\ otros\r\n\ detalles\ se\ establecen\ en\ los\ valores\ por\ defecto.\r\n
+comment2.params=nuevoEstudiante
+comment2.target=void\ matriculaEstudiante(Estudiante)
+comment2.text=\r\n\ Agrega\ un\ Estudiante\ a\ esta\ ClaseLab\r\n
+comment3.params=
+comment3.target=int\ numeroDeEstudiantes()
+comment3.text=\r\n\ Retorna\ el\ n\u00FAmero\ de\ estudiantes\ actualmente\ matriculados\ en\ esta\ ClaseLab.\r\n
+comment4.params=aulaNumero
+comment4.target=void\ setAula(java.lang.String)
+comment4.text=\r\n\ Establece\ el\ n\u00FAmero\ del\ aula\ para\ esta\ ClaseLab\r\n
+comment5.params=diaYHoraCadena
+comment5.target=void\ setHora(java.lang.String)
+comment5.text=\r\n\ Establece\ el\ horario\ para\ esta\ ClaseLab.\ El\ par\u00E1metro\ deber\u00EDa\ definir\ \r\n\ el\ d\u00EDa\ y\ la\ hora,\ tal\ como\ "Viernes,\ 10\:00"\r\n
+comment6.params=instructorNombre
+comment6.target=void\ setInstructor(java.lang.String)
+comment6.text=\r\n\ Establece\ el\ nombre\ del\ instructor\ para\ esta\ ClaseLab.\r\n
+comment7.params=
+comment7.target=void\ printList()
+comment7.text=\r\n\ Imprime\ una\ lista\ de\ la\ clase\ en\ la\ terminal,\ con\ otros\ detalles\ no\ estandard\r\n\ de\ la\ ClaseLab.\r\n
+numComments=8

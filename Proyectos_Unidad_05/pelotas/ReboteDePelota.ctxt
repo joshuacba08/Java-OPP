@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=xPos\ yPos\ diametroDePelota\ colorDePelota\ posPiso\ cuadroCanvas
+comment0.target=ReboteDePelota(int,\ int,\ int,\ Color,\ int,\ Canvas)
+comment0.text=\nConstructor\ para\ objectos\ de\ la\ clase\ ReboteDePelota\n\n@param\ xPos\ \ coordenada\ horizontal\ de\ la\ pelota\n@param\ yPos\ \ coordenada\ vertical\ de\ la\ pelota\n@param\ diametroDePelota\ \ el\ diametro\ (en\ pixels)\ de\ la\ pelota\n@param\ colorDePelota\ \ el\ color\ de\ la\ pelota\n@param\ posPiso\ \ la\ posici\u00F3n\ del\ piso\ (donde\ la\ pelota\ rebotar\u00E1)\n@param\ cuadroCanvas\ \ el\ canvas\ donde\ se\ dibujar\u00E1\ la\ pelota\n\n
+comment1.target=void\ dibujar()
+comment1.text=\nDibuja\ la\ pelota\ en\ su\ posici\u00F3n\ sobre\ el\ canvas.\n\n
+comment2.target=void\ borrar()
+comment2.text=\nBorra\ la\ pelota\ del\ canvas\n\n
+comment3.target=void\ mover()
+comment3.text=\nMueve\ esta\ pelota\ de\ acuerdo\ a\ su\ posici\u00F3n\ y\ velocida\ y\ la\ re-dibuja\n\n
+comment4.target=int\ getXPosicion()
+comment4.text=\nretorna\ la\ posici\u00F3n\ horizontal\ de\ la\ pelota\n\n
+comment5.target=int\ getYPosicion()
+comment5.text=\nretorna\ la\ posici\u00F3n\ vertical\ de\ la\ pelota\n\n
+numComments=6

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=MaquinaDeBoletos
+comment0.text=\r\n\ MaquinaDeBoletos\ modela\ una\ m\u00E1quina\ de\ boletos\ ingenua\r\n\ que\ entrega\ boletos\ de\ transporte.\r\n\ El\ precio\ del\ boleto\ se\ especifica\ por\ via\ del\ constructor.\r\n\ Es\ una\ m\u00E1quina\ ingenua\ en\ el\ sentido\ de\ que\ conf\u00EDa\ en\ que\ \r\n\ sus\ usuarios\ insertar\u00E1n\ suficiente\ dinero\ antes\ de\ imprimir\r\n\ el\ boleto.\r\n\ Incluso\ asume\ que\ los\ usuarios\ entraran\ cantidades\ suficientes.\r\n\r\n\ @author\ David\ J.\ Barnes\ and\ Michael\ Kolling\r\n\ @version\ 2006.03.30\r\n\ Traducci\u00F3n\:\ Carlos\ A.\ Bart\u00F3\r\n
+comment1.params=precioBoleto
+comment1.target=MaquinaDeBoletos(int)
+comment1.text=\r\n\ Crea\ una\ m\u00E1quina\ que\ suministra\ boletos\ de\ un\ precio\ dado.\r\n\ Notar\ que\ el\ precio\ debe\ ser\ mayor\ que\ cero,\ y\ que\ no\ se\r\n\ hacen\ verificaciones\ para\ asegurarlo.\r\n
+comment2.params=
+comment2.target=int\ getPrecio()
+comment2.text=\r\n\ Retorna\ el\ precio\ de\ un\ boleto.\r\n
+comment3.params=
+comment3.target=int\ getSaldo()
+comment3.text=\r\n\ Retorna\ la\ cantidad\ de\ dinero\ ya\ insertada\ para\ el\r\n\ siguiente\ boleto\r\n
+comment4.params=cantidad
+comment4.target=void\ insertarDinero(int)
+comment4.text=\r\n\ Recibe\ del\ usuario\ una\ cantidad\ de\ dinero\ en\ centavos.\ \r\n
+comment5.params=
+comment5.target=void\ imprimirBoleto()
+comment5.text=\r\n\ Imprime\ un\ boleto.\r\n\ Actualiza\ el\ total\ de\ dinero\ recolectado\ y\ \r\n\ pone\ el\ saldo\ en\ cero.\r\n
+numComments=6

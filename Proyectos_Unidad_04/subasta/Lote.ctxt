@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Lote
+comment0.text=\r\n\ Una\ clase\ para\ modelar\ un\ item\ (o\ conjunto\ de\ items)\ \r\n\ en\ una\ subasta\:\ un\ lote\r\n\ \r\n\ @author\ David\ J.\ Barnes\ and\ Michael\ Kolling.\r\n\ @version\ 2006.03.30\r\n
+comment1.params=numero\ descripcion
+comment1.target=Lote(int,\ java.lang.String)
+comment1.text=\r\n\ Construye\ un\ lote,\ estableciendo\ su\ n\u00FAmero\ y\ descripcion.\r\n\ @param\ numero\ El\ numero\ del\ lote.\r\n\ @param\ descripcion\ Una\ descripcion\ de\ este\ lote.\r\n
+comment2.params=oferta
+comment2.target=boolean\ ofertarPara(Oferta)
+comment2.text=\r\n\ Intento\ de\ ofertar\ por\ este\ lote.\ Una\ oferta\ exitosa\r\n\ debe\ tener\ un\ valor\ mayor\ a\ cualquiera\ otra\ existente.\r\n\ @param\ oferta\ Una\ oferta\ nueva.\r\n\ @return\ true\ si\ tiene\ exito,\ false\ en\ otro\ caso.\r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\r\n\ @return\ Una\ cadena\ representacion\ de\ los\ detalles\ de\ este\ lote.\r\n
+comment4.params=
+comment4.target=int\ getNumero()
+comment4.text=\r\n\ @return\ El\ n\u00FAmero\ de\ lote.\r\n
+comment5.params=
+comment5.target=java.lang.String\ getDescripcion()
+comment5.text=\r\n\ @return\ La\ descripcion\ del\ lote.\r\n
+comment6.params=
+comment6.target=Oferta\ getOfertaMaxima()
+comment6.text=\r\n\ @return\ La\ mayor\ oferta\ para\ este\ lote.\r\n\ \ \ \ \ \ \ \ \ Podr\u00EDa\ ser\ null\ si\ no\ hubiera\ una\ oferta.\r\n
+numComments=7

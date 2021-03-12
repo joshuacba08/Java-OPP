@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Cuadro
+comment0.text=\ Esta\ clase\ representa\ una\ pintura\ sencilla.\ Puede\ dibujar\ la\ pintura\r\n\ usando\ el\ m\u00E9todo\ dibujar.\ Pero\ espere,\ siendo\ una\ pintura\ electr\u00F3nica,\r\n\ se\ la\ puede\ cambiar.\ Se\ la\ puede\ establecer\ para\ que\ se\ vea\ en\ blanco\r\n\ negro\ y\ luego\ volver\ a\ verla\ en\ colores\ (s\u00F3lo\ despu\u00E9s\ de\ haber\ sido\r\n\ dibujada,\ por\ supuesto).\r\n\r\n\ Esta\ clase\ fu\u00E9\ escrita\ como\ un\ ejemplo\ temprano\ para\ ense\u00F1ar\ Java\ con\ BlueJ.\r\n\ \ \r\n\ @author\ \ Michael\ Kolling\ and\ David\ J.\ Barnes\r\n\ @version\ 2006.03.30\r\n
+comment1.params=
+comment1.target=Cuadro()
+comment1.text=\r\n\ Constructor\ para\ objetos\ de\ la\ clase\ Cuadro\r\n
+comment2.params=
+comment2.target=void\ dibujar()
+comment2.text=\r\n\ Dibuja\ esta\ pintura.\r\n
+comment3.params=
+comment3.target=void\ setBlancoYNegro()
+comment3.text=\r\n\ Cambia\ esta\ pintura\ para\ ser\ mostrada\ en\ blanco\ y\ negro\r\n
+comment4.params=
+comment4.target=void\ setColor()
+comment4.text=\r\n\ Cambia\ esta\ pintura\ para\ ser\ mostrada\ en\ colores\r\n
+numComments=5
