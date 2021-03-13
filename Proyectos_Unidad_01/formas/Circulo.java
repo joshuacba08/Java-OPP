@@ -16,7 +16,6 @@ public class Circulo
     private int yPosicion;
     private String color;
     private boolean esVisible;
-    private String nombre;
     
     /**
      * Crear un nuevo círculo en la posición y el color por defecto. 
