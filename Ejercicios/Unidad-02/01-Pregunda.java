@@ -20,12 +20,12 @@ public class Empresa {
         int SUMA_P = 0;
         int operador = 2;
 
-        for (int i = 0; i <= cuit.length(); i++) {
-            if (operador == 8) {
+        for (int i = 9; i >= 0; i--) { //itera de derecha a izquierda
+            if (operador == 8) { //si el operador lle a ser 8, entonces vuelve a 2
                 operador = 2;
             }
-            SUMA_P += (Character.getNumericValue(cuit.charAt(10))) * operador;
-            operador++;
+            SUMA_P += (Character.getNumericValue(cuit.charAt(i))) * operador;  //convierte cada caracter de la cadena en un entero para ir sumando
+            operador++;  //va sumando el operador
         }
 
         int SUMA_MOD11 = SUMA_P % 11;
@@ -42,7 +42,12 @@ public class Empresa {
         } else if (ONCEMENOS == digitToVerify) {
             this.cuit = cuit;
             return true;
+        } else if (ONCEMENOS != digitToVerify ) {
+            this.cuit = "";
+            return false;
         }
+
+        return false;
 
     }
 
