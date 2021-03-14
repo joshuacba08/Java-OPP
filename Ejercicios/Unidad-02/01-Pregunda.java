@@ -16,12 +16,12 @@ public class Empresa {
      */
     public boolean setCuit(String cuit) {
 
-        int digitToVerify = Character.getNumericValue(cuit.charAt(10));
+        int digitToVerify = Character.getNumericValue(cuit.charAt(10)); //extraigo el último caracter del cuit como dígito verificador
         int SUMA_P = 0;
-        int operador = 2;
+        int operador = 2; //usaré este operador para ir multiplicando cada número del cuit de acuerdo al algoritmo módulo11
 
         for (int i = 9; i >= 0; i--) { //itera de derecha a izquierda
-            if (operador == 8) { //si el operador lle a ser 8, entonces vuelve a 2
+            if (operador == 8) { //si el operador llega a 8, entonces vuelve a 2 para continuar operando los demás dígitos
                 operador = 2;
             }
             SUMA_P += (Character.getNumericValue(cuit.charAt(i))) * operador;  //convierte cada caracter de la cadena en un entero para ir sumando
